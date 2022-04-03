@@ -1,0 +1,148 @@
+.profileScreen {
+    height: 100vh;
+    color: #fff;
+}
+
+.profileScreen__body {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    padding-top: 8%;
+}
+
+.profileScreen__body > h1 {
+    font-size: 55px;
+    font-weight: 400;
+    border-bottom: 1px solid #282c2d;
+    margin-bottom: 20px;
+}
+
+.profileScreen__info {
+    display: flex;
+}
+
+.profileScreen__info > img {
+    height: 100px;
+}
+
+.profileScreen__details {
+    color: white;
+    margin-left: 25px;
+    flex: 1;
+}
+
+.profileScreen__details > h2 {
+    background-color: gray;
+    padding: 15px;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.profileScreen__signOut{
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 5%;
+    width: 100%;
+    color: #fff;
+    background-color: #e50914;
+    cursor: pointer;
+    border: none;
+}
+.profileScreen__signOut:hover {
+    background-color: #e13b43;
+}
+
+.profileScreen__pans {
+    margin-top: 20px;
+}
+
+.profileScreen__plans > h3 {
+    border-bottom: 1px solid #282c2d;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 680px) {
+    .profileScreen__body {
+        padding-top: 20%;
+    }
+    .profileScreen__info > img {
+        height: 60px;
+    }
+    .profileScreen__details {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 535px) {
+    .profileScreen__info > img {
+      height: 60px;
+    }
+    .profileScreen__body > h1 {
+        font-size: 50px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .profileScreen__body {
+        padding-top: 50%;
+        
+    }
+    .profileScreen__body > h1 {
+        font-size: 40px;
+    }
+    .profileScreen__info > img {
+        height: 50px;
+    }
+
+    .profileScreen__details > h2 {
+        padding: 8px;
+        width: 70%;
+        font-size: 8px;
+    }
+
+    .profileScreen__signOut {
+        width: 80%;
+        font-size: 1rem;
+        padding: 10px;
+    }
+   
+}
+
+@media only screen and (max-width: 380px) {
+    .profileScreen__body > h1 {
+        font-size: 30px;
+    }
+    .profileScreen__info > img {
+        height: 40px;
+    }
+    .profileScreen__pans > h3 {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .profileScreen__body > h1 {
+        font-size: 25px;
+    }
+    .profileScreen__pans > h3 {
+        font-size: 0.8rem;
+    }
+
+    .profileScreen__signOut {
+        font-size: 0.6em;
+        width: 70%;
+        padding: 10px;
+    }
+
+    .profileScreen__details > h2 {
+        padding: 6px;
+        font-size: 6px;
+        width: 80%;
+    }
+}

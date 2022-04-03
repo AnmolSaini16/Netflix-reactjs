@@ -1,0 +1,66 @@
+.user {
+    height: 100vh;
+}
+
+.logo {
+    position: fixed;
+    top: 24px;
+    left: 0;
+    width: 120px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+.container {
+    padding-top: 150px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.contents {
+    display: inline;
+}
+
+.user-info {
+    text-align: center;
+    opacity: 0.5;
+}
+.user-info:hover {
+    opacity: 1;
+}
+
+.watching {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 50px;
+    font-weight: 400;
+}
+
+.user-info > img {
+    object-fit: contain;
+    height: 160px;
+    padding-bottom: 10px;
+    opacity: 0.6;
+}
+.userEmail {
+    color: white;
+    opacity: 0.6;
+}
+
+
+
+
+@media only screen and (max-width: 450px) {
+    .watching {
+        width: 250px;
+        margin-left: -60px;
+    }
+
+    .user-info {
+        width: 150px;
+        margin-left: -18px;
+    }
+}
